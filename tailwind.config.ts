@@ -1,6 +1,5 @@
-// tailwind.config.js
 module.exports = {
-	darkMode: 'class',
+	darkMode: 'selector',
 	content: [
 	  "./app/**/*.{js,ts,jsx,tsx}",
 	  "./components/**/*.{js,ts,jsx,tsx}",
@@ -8,17 +7,30 @@ module.exports = {
 	theme: {
 	  extend: {
 		colors: {
-		  background: 'hsl(var(--background))',
-		  foreground: 'hsl(var(--foreground))',
 		  primary: {
-			DEFAULT: 'hsl(var(--primary))',
-			foreground: 'hsl(var(--primary-foreground))',
+			softCyan: "hsl(174, 77%, 80%)",
+			strongCyan: "hsl(174, 86%, 45%)",
+			lightGrayishRed: "hsl(14, 92%, 95%)",
+			lightRed: "hsl(15, 100%, 70%)",
+			paleBlue: "hsl(226, 100%, 87%)",
+		  },
+		  neutral: {
+			white: "hsl(0, 0%, 100%)",
+			veryPaleBlue: "hsl(230, 100%, 99%)",
+			lightGrayishBlue: "hsl(224, 65%, 95%)",
+			toggleGrayishBlue: "hsl(223, 50%, 87%)",
+			grayishBlue: "hsl(225, 20%, 60%)",
+			darkDesaturatedBlue: "hsl(227, 35%, 25%)",
 		  },
 		},
-		boxShadow: {
-			'glow': '0 4px 15px rgba(0, 255, 170, 0.5)', // Customize glow effect
-		  },
+		fontFamily: {
+		  manrope: ["Manrope", "sans-serif"],
+		},
+		fontSize: {
+		  base: "15px",
+		},
 	  },
 	},
+	plugins: [],
   };
   
