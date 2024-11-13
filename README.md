@@ -30,7 +30,6 @@ Users should be able to:
 
 ![Screenshot of my solution](./screenshot.jpg)
 
-
 ### Links
 
 - Solution URL: [My Frontend Mentor Solution](https://www.frontendmentor.io/solutions/interactive-pricing-component-using-nextjs-and-shadcn-bRzTyLw8tK)
